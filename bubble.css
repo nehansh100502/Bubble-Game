@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(200, 246, 203);
+}
+#bubble{
+    height: 450px;
+    width: 880px;
+    overflow: hidden;
+    background-color: white;
+    /* padding: 30px; */
+    margin: 0px 70px;
+    border-radius: 10px;
+    /* box-shadow: 20px 20px 20px 20px #ede9e9; */
+}
+#bubble_02{
+    background-color: rgb(82, 187, 82);
+    height: 34px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#hit{
+    color: white;
+}
+#hit:hover{
+    color: rgb(250, 83, 83);
+    font-size: 22px;
+}
+#score{
+    color: white;
+}
+#score:hover{
+  color: rgb(250, 83, 83);
+  font-size: 22px;
+}
+#timer-second{
+    color: white;
+}
+#timer-second:hover{
+    color: blue;
+}
+#bubble_03{
+    display: flex;
+    flex-wrap: wrap;  
+    padding: 20px; 
+    justify-content: center;
+    align-items: center;
+    color: rgb(245, 13, 13);
+    font-size: 40px;
+}
+#gola{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    background-color: rgba(20, 185, 240, 0.584);
+    display: flex;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+}
+#gola:hover{
+    background-color: rgb(42, 152, 231);
+}
+button{
+    padding: 10px;
+    background-color: rgb(9, 133, 196);
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(72, 117, 162);
+}
+#score-history{
+    background-color: rgba(241, 222, 43, 0.521);
+    color: rgb(252, 88, 6);
+    height: 100px;
+}
